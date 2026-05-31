@@ -8,6 +8,7 @@ csharp_place_constructor_initializer_on_same_line = true
 dotnet_diagnostic.SA1009.severity = none
 dotnet_diagnostic.SA1111.severity = none
 dotnet_diagnostic.S6964.severity = none
+dotnet_diagnostic.SA1128.severity = none
 
 
 #### Core EditorConfig Options ####
@@ -183,6 +184,7 @@ csharp_new_line_before_open_brace_object_collection_array_initializers = false
 csharp_new_line_before_open_brace_lambda_expression = false
 csharp_new_line_before_open_brace_local_function = false
 csharp_new_line_before_open_brace = types
+csharp_new_line_before_base_constructor = false
 
 # Indentation preferences
 csharp_indent_block_contents = true
@@ -261,3 +263,7 @@ dotnet_naming_style.begins_with_i.required_prefix = I
 dotnet_naming_style.begins_with_i.required_suffix = 
 dotnet_naming_style.begins_with_i.word_separator = 
 dotnet_naming_style.begins_with_i.capitalization = pascal_case
+
+
+
+resharper_place_constructor_initializer_on_same_line = true
