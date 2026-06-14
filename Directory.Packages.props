@@ -1,0 +1,15 @@
+<Project>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="1.0.0.9" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.100" />
+		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556" />
+		<PackageVersion Include="Roslynator.Analyzers" Version="4.12.0" />
+		<PackageVersion Include="SonarAnalyzer.CSharp" Version="9.32.0.97167" />
+		<PackageVersion Include="coverlet.collector" Version="10.0.1" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NuGetAudit>true</NuGetAudit>
+		<NuGetAuditMode>all</NuGetAuditMode>
+		<NuGetAuditLevel>low</NuGetAuditLevel>
+	</PropertyGroup>
+</Project>
